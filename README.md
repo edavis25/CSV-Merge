@@ -1,6 +1,6 @@
 # CSV-Merge
 ---
-Merges multiple .csv files together either vertically or horizontally.
+####Merges multiple .csv files together either vertically or horizontally.
 ---
 ###.jar files are self-contained and fully executable.
 
