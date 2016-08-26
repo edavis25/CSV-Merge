@@ -3,7 +3,8 @@
 ---
 ###Folders:
 - **JavaFX Version** - Newer version of program containing both functions in one JavaFX application
-- **Swing Version** - Older version with 2 executable .jar files; one for each function (ex: horizontal/vertical).
+- **Swing Version** - Older version with 2 executable .jar files; one for each function (ex: horizontal/vertical)
+
 ---
 ###About:
 Used to combine multiple .csv files together into one large .csv file. When scraping
