@@ -1,11 +1,10 @@
-# CSV-Merge
-###Merges multiple .csv files together either vertically or horizontally.
+# CSV-Merge (Swing Version)
 ---
-###Folders:
-- **JavaFX Version** - Newer version of program containing both functions in one JavaFX application
-- **Swing Version** - Older version with 2 executable .jar files; one for each function (ex: horizontal/vertical).
+####Merges multiple .csv files together either vertically or horizontally.
 ---
-###About:
+###.jar files are self-contained and fully executable.
+
+---
 Used to combine multiple .csv files together into one large .csv file. When scraping
 data from different tables, this allows you to keep each table in its own .csv file while
 still giving the ability to work with all tables together easily by quickly combining them.

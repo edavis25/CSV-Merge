@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="283.0000999999975" prefWidth="277.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="csv.merge.complete.FXMLDocumentController">
+  <children>
+    <Label fx:id="label" layoutX="78.0" layoutY="14.0" minHeight="16.0" minWidth="69.0" text="Choose merge type:">
+      <font>
+        <Font name="System Bold" size="13.0" />
+      </font>
+    </Label>
+    <Button id="horizontalMerge" fx:id="horizontalMergeButton" layoutX="86.0" layoutY="86.0" mnemonicParsing="false" onAction="#horizontalMergeButtonClick" text="Horizontal Merge" />
+    <Button id="verticleMergeButton" fx:id="verticalMergeButton" layoutX="86.0" layoutY="193.0" mnemonicParsing="false" onAction="#verticalMergeButtonClick" prefWidth="113.0" text="Vertical Merge" />
+    <Label layoutX="12.0" layoutY="220.0" prefHeight="16.0" text="Stacks separate .csv files on top of one another." />
+    <Label layoutX="14.0" layoutY="112.0" text="Brings same sized tables together side-by-side." />
+    <Label layoutX="8.0" layoutY="236.0" prefHeight="16.0" text="All .csv files must have same number of columns." />
+    <Label layoutX="39.0" layoutY="128.0" text="Tables must be exactly the same size." />
+    <Label layoutX="8.0" layoutY="32.0" text="Merged files placed in directory with chosen files." />
+  </children>
+</AnchorPane>
